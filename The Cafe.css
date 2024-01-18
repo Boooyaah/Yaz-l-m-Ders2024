@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    
+    height: 200px;
+    align-items: center;
+}
+.baslik{
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+.welcome{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    height: 142px;
+    margin-top: 25px;
+}
+p span{
+    background-color:black ;
+    color: aliceblue;
+    font-family: "Raleway", sans-serif;
+    padding: 5px 12px;
+}
+.container{
+
+    background-color: aqua;
+    height: 100vh;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.div_left{
+    background-color: antiquewhite;
+    width: 50%;
+}
+.left_main h3{
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+.left_main h4{
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 50;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+.left_main p{
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 10px;
+    margin-bottom: 30px;
+  
+}
+.left_footer{
+    display: inline-flex;
+    align-content: space-around;
+}
+.left_footer h5{
+    display: flex;
+    margin-left: 750px;
+    margin-bottom: 20px;
+    align-items: baseline;
+    font-size: 15px;
+}
+.left_footer span{
+    margin-left: 10px;
+    background-color: black;
+    padding: 8px;
+    color: aliceblue; 
+}
+
+
+
+
+
+

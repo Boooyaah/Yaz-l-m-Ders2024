@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(80, 176, 255);
+    color: aliceblue;
+}
+header{
+    background-color:#6527be;
+    height: 70px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    opacity: 0.8;
+    
+
+}
+
+.header a{
+    text-decoration: none;
+    margin-left: 40px;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 10px 20px;
+    opacity: 1;
+}
+.header a:hover{
+    background-color: rgb(0, 207, 207);
+    border-radius: 10px;
+    color: black;
+    transition: all 1s;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center  ;
+}
+.main h5 ,img, p{
+    align-self: center;
+    width: 700px;
+    
+}
+.main h5{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.main p {
+    margin-top: 20px;
+    width: 600px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.main img{
+    border-color: aliceblue;
+    border-width: 10px;
+    border-style: solid;
+
+}
+.proje{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-color: aliceblue;
+    border-style: solid;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+
+}
+
+.proje img{
+    width: 400px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.proje h2{
+    margin-top: 20px;
+    text-decoration: underline;
+    
+    
+}
+.proje p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.proje_2{
+    text-align: center;
+    margin-top: 60px;
+}
+.resim_aciklama{
+   display: flex;
+   margin-left: 50px;
+   margin-right: 100px;
+   justify-content: center;
+   
+   font-size: 20px;
+   margin-top: 50px;
+   
+}
+.resim_aciklama img{
+    width: 250px;
+    border-radius: 50%;
+    height: 250px;
+}
+.resim_aciklama p{
+    margin-left: 20px;
+    text-align: left;
+}
+textarea{
+    width: 450px;
+    height: 120px;
+    margin-top: 20px;
+}
+.adiniz{
+    margin-top: 30px;
+    margin-right: 17px
+}
+.form input{
+    height: 25px;
+    width: 210px;
+
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+   
+}
+.btn:hover{
+    background-color: #6527be;
+    color: aliceblue;
+    transition: all 1s;
+
+
+}
+.form{
+    margin-top: 50px;
+}
+.footer a{
+    color: aliceblue;
+}
+.footer{
+    background-color: #6527be;
+    margin-top: 50px;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+    
+
+}
+.footer ul li{
+    list-style: none;
+    margin-top: 15px;
+
+}
+.sol_baglanti{
+    margin-top: 40px;
+
+
+
+
+}
+.sag_baglanti{
+    margin-top: 40px
+}
